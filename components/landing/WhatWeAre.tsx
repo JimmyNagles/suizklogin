@@ -9,7 +9,7 @@ const WhatWeAre = () => {
         </h1>
       </div>
       <div className="w-full h-full flex flex-col justify-center items-center  md:-mt-0 p-8">
-        <h1 className="text-white text-sm  md:text-base text-center w-4/5  p-8 shadow-2xl border border-blue-500 rounded-lg hover:bg-blue-900 transition-all duration-1000 ease-in">
+        <h1 className="text-white text-xs  md:text-base text-center w-4/5  p-8 shadow-2xl border border-blue-500 rounded-lg hover:bg-blue-900 transition-all duration-1000 ease-in">
           Embarking on a journey to create AR experiences, I dove into mastering
           Blender, aiming to craft 100 3D models. The initial ones were a
           learning curve, but the latter half showcases a significant leap in

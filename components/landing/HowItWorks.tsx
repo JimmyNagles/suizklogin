@@ -5,14 +5,16 @@ const HowItWorks = () => {
     <section className="grid grid-cols-1 w-full content-center justify-items-center min-h-[600px] mt-12">
       <h2 className=" text-4xl  mb-12 mt-12 text-blue-500">How It Works</h2>
 
-      <div className="text-white mt-8 ">
+      <div className="text-white mt-8 p-8 ">
         {steps.map((step, index) => (
           <div
             key={index}
             className=" border border-blue-500 p-8 rounded-2xl shadow-2xl mb-8  hover:bg-blue-900 transition-all duration-1000 ease-in "
           >
-            <p className="mb-2 text-blue-500">{step.title}</p>
-            <p className="">{step.description}</p>
+            <p className="mb-4 text-blue-500 text-sm md:text-lg text-center">
+              {step.title}
+            </p>
+            <p className="text-xs md:text-base">{step.description}</p>
           </div>
         ))}
       </div>
