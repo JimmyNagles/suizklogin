@@ -28,7 +28,7 @@ export default function Home() {
       <HowItWorks></HowItWorks>
       <div className="mb-20"></div>
 
-      <button className="p-4  bg-blue-900 w-[200px] border-white mt-8 shadow-inner bg-opacity-20  hover:bg-opacity-80 hover:shadow-2xl transition-all duration-1000 ease-in  text-white   rounded-md">
+      <button className="p-4  bg-blue-900 w-[200px] border-white mt-8 shadow-inner bg-opacity-20  hover:bg-opacity-80 hover:shadow-2xl transition-all duration-1000 ease-in  text-white   rounded-2xl">
         Click to Start
       </button>
       <div className="mb-20"></div>
