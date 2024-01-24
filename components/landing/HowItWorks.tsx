@@ -14,7 +14,9 @@ const HowItWorks = () => {
             <p className="mb-4 text-blue-500 text-sm md:text-lg text-center">
               {step.title}
             </p>
-            <p className="text-xs md:text-base">{step.description}</p>
+            <p className="text-xs md:text-base text-center">
+              {step.description}
+            </p>
           </div>
         ))}
       </div>
