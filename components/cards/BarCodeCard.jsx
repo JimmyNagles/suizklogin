@@ -16,7 +16,7 @@ const BarCodeCard = ({
         </h1>
       </Link>
       <img className="w-[200px] h-[200px] shadow-2xl" src={image}></img>
-      <h1 className="p-2 text-md mt-2 text-black">{location}</h1>
+      <h1 className="p-2 text-md mt-2 text-white">{location}</h1>
       <h2 className="p-2 text-md mt-2   ">{name}</h2>
     </div>
   );
