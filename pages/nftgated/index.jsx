@@ -34,7 +34,7 @@ const NFTgated = () => {
   }, []);
   //
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-12 bg-blue-950   ">
+    <main className="flex min-h-screen flex-col items-center justify-between p-12   ">
       <div className="p-2 min-h-[50vh]">
         <MyMapbox initalViewStateProp={cityViewState} data={coordinates} />
       </div>
