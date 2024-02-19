@@ -1,0 +1,27 @@
+---
+compiled_package_info:
+  package_name: suimonsters
+  address_alias_instantiation:
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    suimonsters: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 44CEEF7320E59705F09348E8D8E2E0E45F00C306A5275ED54386FD5CC72B00AC
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    additional_named_addresses: {}
+    no_lint: false
+dependencies:
+  - MoveStdlib
+  - Sui
